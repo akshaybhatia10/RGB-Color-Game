@@ -3,21 +3,33 @@
     background-color: orange;
     float: left;
     width: 30%;
-    padding-bottom: 30%;
+    padding-bottom: 27%;
     margin: 1.66%;
-    
+    border-radius: 15%;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
 
 body{
     background-color: #232323;
+    margin : 0;
+    font-family: "Lato";
 }
 
 h1{
     color: white;
+    margin: 0;
+    background: steelblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 20px 0;
+    line-height: 1.1;
 }
 
 #container{
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
 }
 
@@ -26,4 +38,39 @@ h1{
     background : white;
     text-align: center;
     color: black;
+}
+
+.selected{
+    color:white;
+    background : steelblue;
+}
+
+#color{
+    font-size: 170%;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+}
+
+button{
+    font-family: "Lato";
+    height: 100%;
+    border: none;
+    background: none;
+    color: steelblue;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    font-size: inherit;
+    transition: all 0.6s;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+button:hover{
+    color:white;
+    background : steelblue;
 }
